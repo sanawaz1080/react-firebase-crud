@@ -2,7 +2,7 @@
 
 //  Initialise the app will create the connection
 import { initializeApp } from "firebase/app";
-import { getFireStore } from "@firebase/firestore";
+import { getFirestore } from "@firebase/firestore";
 
 const firebaseConfig = {
   authDomain: "react-firebase-crud-65e75.firebaseapp.com",
@@ -16,4 +16,4 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 
 // Connecting db
-export const db = getFireStore();
+export const db = getFirestore();
